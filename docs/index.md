@@ -153,7 +153,7 @@ After the run in PyCharm, I opened “DataFile.dat” to verify the binary data 
 #### Figure 16  Binary Data in "DataFile.dat" After Run in PyCharm
 ### Executing the Script in Windows Command
 Same steps as the PyCharm run were followed in the Windows command run, and the results are shown in the screenshot in Figure 17.  
-![Run Results in Windows Command Prompt] (https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2017.png "Run Results in Windows Command")
+![Run Results in Windows Command Prompt](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2017.png "Run Results in Windows Command")
 #### Figure 17  Run Results in Windows Command
 
 ### Checking the Binary Data File After Windows Command Run
