@@ -160,5 +160,7 @@ Same steps as the PyCharm run were followed in the Windows command run, and the 
 After the run in Windows command, the “DataFile.dat” was opened again to verify the binary data were created as intended, which is shown in Figure 18.  
 ![Binary Data in "DataFile.dat" After Run in Windows Command](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2018.png "Binary Data in DataFile.dat After Run in Windows Command")
 #### Figure 18  Binary Data in "DataFile.dat" After Run in Windows Command
+### GitHub Webpage
+I used index.md to create this webpage, for which a sample portion is shown in Figure 19.
 
 ## Summary
