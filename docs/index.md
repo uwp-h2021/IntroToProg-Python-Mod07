@@ -20,7 +20,11 @@ In this script, I am demonstrating exception handling and data pickling work.   
 5)	Read the pickled data from the binary file back into a list of strings using pickle.load() method
 6)	Print the list of strings to the user
 
+![The "DataFile.txt" with its Content](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/FIgure%209.png "The DataFile.txt with Its Content")
+#### Figure 9 The "DataFile.txt" with Its Content
 ### Writing the Script in Pycharm
+Following the steps in the planning, the script was completed with its various sections described in detail as follows.
+
 ```
 # ---------------------------------------------------------------------------- #
 # Title: Assignment 07
@@ -137,11 +141,9 @@ Processor.pickle_it(strBinFileName, list_of_string)    # Pickle the data
 list_of_string = Processor.unpickle_it(strBinFileName)     # Unpickle the data
 IO.display_data(list_of_string)     # Display the un-pickled data to the user
 ```
-
-![Change Log of the Script](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2010.png "Change Log of the Script")
-#### Figure 10 Change Log of the Script
-
 ### Executing the Script in Pycharm
+The script in performing the exception handling and pickling actions in demonstrated in this section.  I tested the exception handling by entering a non-existing file name, then an existing file name without extension, both of which were handled by putting out the error message.  The script kept asking the user for an existing text file name until no exception was captured.  The data from the original text file “DataFile.txt” were read, written into a binary file, and read back into memory, and finally displayed to the user to verify the process was done correctly.  The binary file name “DataFile.dat” was the same name as the original text file except that its extension was “.dat”.  The run results are shown in Figure 15.
+
 ### Executing the Script in Windows Command
 ### Checking the Binary File
 ## Summary
