@@ -148,8 +148,10 @@ The script in performing the exception handling and pickling actions in demonstr
 #### Figure 15  Run Results in PyCharm
 ### Checking the Binary Data File After PyCharm Run
 After the run in PyCharm, I opened “DataFile.dat” to verify the binary data were created as intended, which is shown in Figure 16.
+
 ![Binary Data in "DataFile.dat" After Run in PyCharm](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2016.png "Binary Data in DataFile.dat After Run in PyCharm")
 #### Figure 16  Binary Data in "DataFile.dat" After Run in PyCharm
 ### Executing the Script in Windows Command
+Same steps as the PyCharm run were followed in the Windows command run, and the results are shown in the screenshot in Figure 17.  
 ### Checking the Binary Data File After Windows Command Run
 ## Summary
