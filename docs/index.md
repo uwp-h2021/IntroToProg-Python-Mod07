@@ -2,14 +2,10 @@
 **Dev.** *HJong*  
 **Date:** *5/24/2021*
 ## Introduction
-This report documents a research results on exception handling and pickling.  It also describes a Python script I created that demonstrates my learning.  It contains three main sections (excluding this introduction):
-1)	Exception Handling Research;
-2)	Pickling Research;
-3)	Exception and Pickling Script;
-4)	GitHub webpage;
-5)	Summary
-## The Exception Handling
-## The Pickling
+This report documents a Python script I created to demonstrates exception handling and pickling of data.  It contains three main sections (excluding this introduction):
+1)	Exception and Pickling Script;
+2)	GitHub webpage;
+3)	Summary
 ## The Exception Handling and Pickling Script
 ### Script Planning
 In this script, I am demonstrating exception handling and data pickling work.   The following is the steps I took and have implemented in the code:
