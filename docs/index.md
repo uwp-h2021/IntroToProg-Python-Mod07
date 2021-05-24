@@ -8,7 +8,7 @@ This report documents a Python script I created to demonstrates exception handli
 3)	Summary
 ## The Exception Handling and Pickling Script
 ### Script Planning
-In this script, I am demonstrating exception handling and data pickling work.   The following is the steps I took and have implemented in the code:
+In this script, I am demonstrating exception handling and data pickling work.   The following are the steps to implement the code:
 1)	Create a text data file that contains multiple lines of string (outside of the script).  The data file name is “DataFile.txt”, and the content is shown in Figure 9.
 2)	Ask the user to enter the text file name for pickling.  Handle the exception when the file name does not exist using try-except block.
 3)	Read the data from the text file and add it into a list of strings.
