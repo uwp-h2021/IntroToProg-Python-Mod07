@@ -3,23 +3,23 @@
 **Date:** *5/24/2021*
 ## Introduction
 This report documents a Python script I created to demonstrates exception handling and pickling of data.  It contains three main sections (excluding this introduction):
-1)	Exception and Pickling Script;
-2)	GitHub webpage;
+1)	Exception Handling and Pickling Script;
+2)	GitHub Webpage;
 3)	Summary
 ## The Exception Handling and Pickling Script
 ### Script Planning
 In this script, I am demonstrating exception handling and data pickling work.   The following are the steps to implement the code:
-1)	Create a text data file that contains multiple lines of string (outside of the script).  The data file name is “DataFile.txt”, and the content is shown in Figure 9.
-2)	Ask the user to enter the text file name for pickling.  Handle the exception when the file name does not exist using try-except block.
+1)	Create a text data file that contains multiple lines of string (outside of the script).  The data file name is “DataFile.txt”, and the content is shown in Figure 1.
+2)	Ask the user to enter the text file name for pickling.  Handle the exception when the entered file name does not exist using try-except block.
 3)	Read the data from the text file and add it into a list of strings.
 4)	Write the list of strings into a binary file using pickle.dump() method
 5)	Read the pickled data from the binary file back into a list of strings using pickle.load() method
 6)	Print the list of strings to the user
 
 ![The "DataFile.txt" with its Content](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/FIgure%209.png "The DataFile.txt with Its Content")
-#### Figure 9 The "DataFile.txt" with Its Content
+#### Figure 1 The "DataFile.txt" with Its Content
 ### Writing the Script in Pycharm
-Following the steps in the planning, the script was completed with its various sections described in detail as follows.
+Following the steps in the planning, the script was completed with its various sections as shown below.
 
 ```
 # ---------------------------------------------------------------------------- #
@@ -138,28 +138,28 @@ list_of_string = Processor.unpickle_it(strBinFileName)     # Unpickle the data
 IO.display_data(list_of_string)     # Display the un-pickled data to the user
 ```
 ### Executing the Script in Pycharm
-The script in performing the exception handling and pickling actions in demonstrated in this section.  I tested the exception handling by entering a non-existing file name, then an existing file name without extension, both of which were handled by putting out the error message.  The script kept asking the user for an existing text file name until no exception was captured.  The data from the original text file “DataFile.txt” were read, written into a binary file, and read back into memory, and finally displayed to the user to verify the process was done correctly.  The binary file name “DataFile.dat” was the same name as the original text file except that its extension was “.dat”.  The run results are shown in Figure 15.
+The script in performing the exception handling and pickling actions is demonstrated in this section.  I tested the exception handling by entering a non-existing file name, then an existing file name without extension, both of which were handled by putting out the error message.  The script kept asking the user for an existing text file name until no exception was captured.  The data from the original text file “DataFile.txt” were read, written into a binary file, read back into memory, and finally displayed to the user to verify the process was done correctly.  The binary file name “DataFile.dat” was the same name as the original text file except that its extension was “.dat”.  The run results are shown in Figure 2.
 
 ![Run Results in PyCharm](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2015.png "Run Results in PyCharm")
-#### Figure 15  Run Results in PyCharm
+#### Figure 2  Run Results in PyCharm
 ### Checking the Binary Data File After PyCharm Run
-After the run in PyCharm, I opened “DataFile.dat” to verify the binary data were created as intended, which is shown in Figure 16.
+After the run in PyCharm, I opened “DataFile.dat” to verify the binary data were created as intended, which is shown in Figure 3.
 
 ![Binary Data in "DataFile.dat" After Run in PyCharm](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2016.png "Binary Data in DataFile.dat After Run in PyCharm")
-#### Figure 16  Binary Data in "DataFile.dat" After Run in PyCharm
+#### Figure 3  Binary Data in "DataFile.dat" After Run in PyCharm
 ### Executing the Script in Windows Command
-Same steps as the PyCharm run were followed in the Windows command run, and the results are shown in the screenshot in Figure 17.  
+Same steps as the PyCharm run were followed in the Windows command run, and the results are shown in the screenshot in Figure 4.  
 ![Run Results in Windows Command Prompt](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2017.png "Run Results in Windows Command")
-#### Figure 17  Run Results in Windows Command
+#### Figure 4  Run Results in Windows Command
 
 ### Checking the Binary Data File After Windows Command Run
-After the run in Windows command, the “DataFile.dat” was opened again to verify the binary data were created as intended, which is shown in Figure 18.  
+After the run in Windows command, the “DataFile.dat” was opened again to verify the binary data were created as intended, which is shown in Figure 5.  
 ![Binary Data in "DataFile.dat" After Run in Windows Command](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2018.png "Binary Data in DataFile.dat After Run in Windows Command")
-#### Figure 18  Binary Data in "DataFile.dat" After Run in Windows Command
+#### Figure 5  Binary Data in "DataFile.dat" After Run in Windows Command
 ### GitHub Webpage
-I used index.md to create this webpage, for which a sample portion is shown in Figure 19.  
+I used "index.md" to create this webpage, for which a sample portion is shown in Figure 6.  
 ![Top Portion of the index.md File](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2019.png "Top Portion of the Index.md File")
-#### Figure 19 A Top Portion of Index.md
+#### Figure 6 A Top Portion of Index.md
 
 ## Summary
-This report describes a simple script to demonstrate how to handle errors and pickle the data.  The GitHub webpage was created to publish this report using index.md.  I expect more learning of the Markdown language in future assignments.
+This report describes a simple script to demonstrate how to handle errors and pickle the data.  The GitHub webpage was created to publish this report using "index.md".  I expect more learning of the Markdown language in future assignments.
