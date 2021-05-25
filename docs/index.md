@@ -9,14 +9,14 @@ This report documents a Python script I created to demonstrates exception handli
 ## The Exception Handling and Pickling Script
 ### Script Planning
 In this script, I am demonstrating exception handling and data pickling work.   The following are the steps to implement the code:
+```
 1)	Create a text data file that contains multiple lines of string (outside of the script).  The data file name is “DataFile.txt”, and the content is shown in Figure 1.
 2)	Ask the user to enter the text file name for pickling.  Handle the exception when the entered file name does not exist using try-except block.
 3)	Read the data from the text file and add it into a list of strings.
 4)	Write the list of strings into a binary file using pickle.dump() method
 5)	Read the pickled data from the binary file back into a list of strings using pickle.load() method
 6)	Print the list of strings to the user
-
-![The "DataFile.txt" with its Content](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/FIgure%209.png "The DataFile.txt with Its Content")
+```
 
 ![The "DataFile.txt" with its Content](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/FIgure%209.png "The DataFile.txt with Its Content")
 
@@ -148,20 +148,20 @@ The script in performing the exception handling and pickling actions is demonstr
 ### Checking the Binary Data File After PyCharm Run
 After the run in PyCharm, I opened “DataFile.dat” to verify the binary data were created as intended, which is shown in Figure 3.
 
-![Binary Data in "DataFile.dat" After Run in PyCharm](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2016.png "Binary Data in DataFile.dat After Run in PyCharm")
+![Binary Data in "DataFile.dat" After Run in PyCharm](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/Figure%2016.png "Binary Data in DataFile.dat After Run in PyCharm")
 #### Figure 3  Binary Data in "DataFile.dat" After Run in PyCharm
 ### Executing the Script in Windows Command
 Same steps as the PyCharm run were followed in the Windows command run, and the results are shown in the screenshot in Figure 4.  
-![Run Results in Windows Command Prompt](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2017.png "Run Results in Windows Command")
+![Run Results in Windows Command Prompt](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/Figure%2017.png "Run Results in Windows Command")
 #### Figure 4  Run Results in Windows Command
 
 ### Checking the Binary Data File After Windows Command Run
 After the run in Windows command, the “DataFile.dat” was opened again to verify the binary data were created as intended, which is shown in Figure 5.  
-![Binary Data in "DataFile.dat" After Run in Windows Command](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2018.png "Binary Data in DataFile.dat After Run in Windows Command")
+![Binary Data in "DataFile.dat" After Run in Windows Command](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/Figure%2018.png "Binary Data in DataFile.dat After Run in Windows Command")
 #### Figure 5  Binary Data in "DataFile.dat" After Run in Windows Command
 ### GitHub Webpage
 I used "index.md" to create this webpage, for which a sample portion is shown in Figure 6.  
-![Top Portion of the index.md File](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2019.png "Top Portion of the Index.md File")
+![Top Portion of the index.md File](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/Figure%2019.png "Top Portion of the Index.md File")
 #### Figure 6 A Top Portion of Index.md
 
 ## Summary
