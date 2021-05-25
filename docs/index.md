@@ -18,7 +18,7 @@ In this script, I am demonstrating exception handling and data pickling work.   
 
 ![The "DataFile.txt" with its Content](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/FIgure%209.png "The DataFile.txt with Its Content")
 
-![The "DataFile.txt" with its Content](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/main/docs/FIgure%209.png "The DataFile.txt with Its Content")
+![The "DataFile.txt" with its Content](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/FIgure%209.png "The DataFile.txt with Its Content")
 
 #### Figure 1 The "DataFile.txt" with Its Content
 ### Writing the Script in Pycharm
