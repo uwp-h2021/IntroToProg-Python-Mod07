@@ -161,7 +161,7 @@ After the run in Windows command, the “DataFile.dat” was opened again to ver
 #### Figure 5:  Binary Data in "DataFile.dat" After Run in Windows Command
 ### GitHub Webpage
 I used "index.md" to create this webpage, for which a sample portion is shown in Figure 6.  
-![Top Portion of the index.md File](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/Figure%2019.png "Top Portion of the Index.md File")
+![Top Portion of the index.md File](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2019.png "Top Portion of the Index.md File")
 #### Figure 6:  A Top Portion of Index.md
 
 ## Summary
