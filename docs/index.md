@@ -2,7 +2,8 @@
 **Dev.** *HJong*  
 **Date:** *5/24/2021*
 ## Introduction
-This report documents a Python script I created to demonstrates exception handling and pickling of data.  It contains three main sections (excluding this introduction):   
+This report documents a Python script I created to demonstrates exception handling and pickling of data.  It contains three main sections (excluding this introduction):  
+
 1)	Exception Handling and Pickling Script;  
 2)	GitHub Webpage;  
 3)	Summary  
@@ -19,7 +20,7 @@ In this script, I am demonstrating exception handling and data pickling work.   
 
 ![The "DataFile.txt" with its Content](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/FIgure%209.png "The DataFile.txt with Its Content")
 
-#### Figure 1 The "DataFile.txt" with Its Content
+#### Figure 1  The "DataFile.txt" with Its Content
 ### Writing the Script in Pycharm
 Following the steps in the planning, the script was completed with its various sections as shown below.
 
@@ -161,7 +162,7 @@ After the run in Windows command, the “DataFile.dat” was opened again to ver
 ### GitHub Webpage
 I used "index.md" to create this webpage, for which a sample portion is shown in Figure 6.  
 ![Top Portion of the index.md File](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/Figure%2019.png "Top Portion of the Index.md File")
-#### Figure 6 A Top Portion of Index.md
+#### Figure 6  A Top Portion of Index.md
 
 ## Summary
 This report describes a simple script to demonstrate how to handle errors and pickle the data.  The GitHub webpage was created to publish this report using "index.md".  I expect more learning of the Markdown language in future assignments.
