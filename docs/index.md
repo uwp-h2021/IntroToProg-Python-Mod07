@@ -17,7 +17,6 @@ In this script, I am demonstrating exception handling and data pickling work.   
 5)	Read the pickled data from the binary file back into a list of strings using pickle.load() method.  
 6)	Print the list of strings to the user.  
 
-
 ![The "DataFile.txt" with its Content](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/FIgure%209.png "The DataFile.txt with Its Content")
 
 #### Figure 1 The "DataFile.txt" with Its Content
