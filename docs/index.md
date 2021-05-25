@@ -3,20 +3,20 @@
 **Date:** *5/24/2021*
 ## Introduction
 This report documents a Python script I created to demonstrates exception handling and pickling of data.  It contains three main sections (excluding this introduction):
-1)	Exception Handling and Pickling Script;
-2)	GitHub Webpage;
-3)	Summary
+1)	Exception Handling and Pickling Script;  
+2)	GitHub Webpage;  
+3)	Summary  
 ## The Exception Handling and Pickling Script
 ### Script Planning
 In this script, I am demonstrating exception handling and data pickling work.   The following are the steps to implement the code:
-```
-1)	Create a text data file that contains multiple lines of string (outside of the script).  The data file name is “DataFile.txt”, and the content is shown in Figure 1.
-2)	Ask the user to enter the text file name for pickling.  Handle the exception when the entered file name does not exist using try-except block.
-3)	Read the data from the text file and add it into a list of strings.
-4)	Write the list of strings into a binary file using pickle.dump() method
-5)	Read the pickled data from the binary file back into a list of strings using pickle.load() method
-6)	Print the list of strings to the user
-```
+
+1)	Create a text data file that contains multiple lines of string (outside of the script).  The data file name is “DataFile.txt”, and the content is shown in Figure 1.  
+2)	Ask the user to enter the text file name for pickling.  Handle the exception when the entered file name does not exist using try-except block.  
+3)	Read the data from the text file and add it into a list of strings.  
+4)	Write the list of strings into a binary file using pickle.dump() method.  
+5)	Read the pickled data from the binary file back into a list of strings using pickle.load() method.  
+6)	Print the list of strings to the user.  
+
 
 ![The "DataFile.txt" with its Content](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/FIgure%209.png "The DataFile.txt with Its Content")
 
