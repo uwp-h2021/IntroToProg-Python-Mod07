@@ -143,7 +143,7 @@ IO.display_data(list_of_string)     # Display the un-pickled data to the user
 ### Executing the Script in Pycharm
 The script in performing the exception handling and pickling actions is demonstrated in this section.  I tested the exception handling by entering a non-existing file name, then an existing file name without extension, both of which were handled by putting out the error message.  The script kept asking the user for an existing text file name until no exception was captured.  The data from the original text file “DataFile.txt” were read, written into a binary file, read back into memory, and finally displayed to the user to verify the process was done correctly.  The binary file name “DataFile.dat” was the same name as the original text file except that its extension was “.dat”.  The run results are shown in Figure 2.
 
-![Run Results in PyCharm](https://github.com/uwp-h2021/IntroToProg-Python-Mod07/blob/main/docs/Figure%2015.png "Run Results in PyCharm")
+![Run Results in PyCharm](https://uwp-h2021.github.io/IntroToProg-Python-Mod07/Figure%2015.png "Run Results in PyCharm")
 #### Figure 2  Run Results in PyCharm
 ### Checking the Binary Data File After PyCharm Run
 After the run in PyCharm, I opened “DataFile.dat” to verify the binary data were created as intended, which is shown in Figure 3.
